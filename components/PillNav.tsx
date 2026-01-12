@@ -127,8 +127,8 @@ const PillNav: React.FC<PillNavProps> = ({
                 </div>
             )}
 
-            {/* Nav Items Container - Centered Absolutely */}
-            <div className="absolute left-1/2 -translate-x-1/2 flex items-center gap-1" ref={navRef}>
+            {/* Nav Items Container - Flex on mobile, Absolute Center on Desktop */}
+            <div className="flex items-center gap-1 md:absolute md:left-1/2 md:-translate-x-1/2" ref={navRef}>
                 {/* The Pill - Absolute positioned background */}
                 <div
                     ref={pillRef}
