@@ -16,14 +16,14 @@ export default function Prizes() {
           <div className="border border-accent/50 rounded-lg p-8 bg-accent/5 backdrop-blur glow-cyan text-center">
             <Trophy className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">1st Place</h3>
-            <p className="text-accent font-semibold mb-4 text-lg">Winner Prize</p>
+            <p className="text-accent font-semibold mb-4 text-lg">INR 300</p>
             <p className="text-muted-foreground text-sm">Awarded to the top-scoring team</p>
           </div>
 
           <div className="border border-border rounded-lg p-8 bg-card/50 backdrop-blur hover:border-accent/50 transition-colors text-center">
             <Award className="w-12 h-12 text-accent mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">2nd Place</h3>
-            <p className="text-accent font-semibold mb-4 text-lg">Runner-up Prize</p>
+            <p className="text-accent font-semibold mb-4 text-lg">INR 200</p>
             <p className="text-muted-foreground text-sm">Awarded to the second-highest scoring team</p>
           </div>
 

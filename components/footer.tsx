@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Twitter } from "lucide-react"
+import { Mail, Linkedin, Instagram } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -47,16 +47,16 @@ export default function Footer() {
                 className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">contact@university.edu</span>
+                <span className="text-sm">student.chap.acm@xim.edu.in</span>
               </a>
               <div className="flex items-center gap-3 text-muted-foreground text-sm">
                 <span>Follow us:</span>
               </div>
               <div className="flex gap-3">
-                <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
-                  <Twitter className="w-4 h-4" />
+                <a href="https://www.instagram.com/acm_xim" className="text-muted-foreground hover:text-accent transition-colors">
+                  <Instagram className="w-4 h-4" />
                 </a>
-                <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
+                <a href="https://www.linkedin.com/company/xim-acm/" className="text-muted-foreground hover:text-accent transition-colors">
                   <Linkedin className="w-4 h-4" />
                 </a>
               </div>
@@ -68,7 +68,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
             <p>© 2026 ACM Student Chapter. All rights reserved.</p>
             <p className="text-xs">
-              This is an event microsite for the Data Visualization Challenge, not the main club website.
+              This website is created by Tech Team of ACM XIM Student Chapter. If you find any issue please report it <a href="mailto:ucse24017@stu.xim.edu.in" className="text-accent">Here.</a>
             </p>
           </div>
         </div>

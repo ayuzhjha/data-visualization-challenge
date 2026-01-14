@@ -22,7 +22,7 @@ export default function Registration() {
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="border border-border rounded-lg p-6 bg-card/50 backdrop-blur">
             <h3 className="font-semibold mb-2">Registration Deadline</h3>
-            <p className="text-accent font-bold text-lg">TBD</p>
+            <p className="text-accent font-bold text-lg">17 Jan 2026</p>
           </div>
           <div className="border border-border rounded-lg p-6 bg-card/50 backdrop-blur">
             <h3 className="font-semibold mb-2">Capacity</h3>

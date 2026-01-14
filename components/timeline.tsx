@@ -2,13 +2,13 @@ import { CheckCircle2 } from "lucide-react"
 
 export default function Timeline() {
   const events = [
-    { label: "Registration Opens", status: "pending" },
-    { label: "Registration Closes", status: "pending" },
-    { label: "Dataset Release", status: "pending" },
-    { label: "Submission Deadline", status: "pending" },
-    { label: "Shortlist Announcement", status: "pending" },
-    { label: "Final Presentations", status: "pending" },
-    { label: "Winners Announced", status: "pending" },
+    { label: "Registration Opens", status: "15 Jan 2026" },
+    { label: "Registration Closes", status: "17 Jan 2026" },
+    { label: "Dataset Release", status: "Before 20 Jan 2026" },
+    { label: "Submission Deadline", status: "20 Jan 2026 (11:59 PM)" },
+    { label: "Shortlist Announcement", status: "Will be Announced Soon  " },
+    { label: "Final Presentations", status: "Will be Announced Soon" },
+    { label: "Winners Announced", status: "Will be Announced Soon" },
   ]
 
   return (
@@ -36,6 +36,7 @@ export default function Timeline() {
                 </div>
                 <div className="flex-1 pt-2">
                   <p className="text-lg font-semibold text-foreground">{event.label}</p>
+                  <p className="text-sm text-muted-foreground">{event.status}</p>
                 </div>
               </div>
             ))}

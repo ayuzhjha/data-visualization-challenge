@@ -37,7 +37,7 @@ export default function FAQ() {
     },
     {
       q: "Is there a registration fee?",
-      a: "No. The Data Visualization Challenge is completely free to participate in.",
+      a: "Yes, There is a registration fee of 400 INR per team.",
     },
   ]
 
@@ -64,9 +64,8 @@ export default function FAQ() {
               >
                 <h3 className="text-left font-semibold text-foreground">{faq.q}</h3>
                 <ChevronDown
-                  className={`w-5 h-5 text-accent flex-shrink-0 transition-transform duration-300 ${
-                    openIndex === idx ? "rotate-180" : ""
-                  }`}
+                  className={`w-5 h-5 text-accent flex-shrink-0 transition-transform duration-300 ${openIndex === idx ? "rotate-180" : ""
+                    }`}
                 />
               </button>
 
