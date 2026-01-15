@@ -30,7 +30,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
           <div className="text-center border border-border rounded-lg p-4 bg-card/50 backdrop-blur glow-cyan-sm hover:border-accent/50 transition-all">
             <div className="text-sm text-muted-foreground mb-2">Date</div>
-            <div className="text-lg font-semibold">18 Jan 2026</div>
+            <div className="text-lg font-semibold">20 Jan 2026</div>
           </div>
           <div className="text-center border border-border rounded-lg p-4 bg-card/50 backdrop-blur glow-cyan-sm hover:border-accent/50 transition-all">
             <div className="text-sm text-muted-foreground mb-2">Duration</div>
