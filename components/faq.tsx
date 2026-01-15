@@ -37,7 +37,7 @@ export default function FAQ() {
     },
     {
       q: "Is there a registration fee?",
-      a: "Yes, There is a registration fee of 400 INR per team.",
+      a: "Yes, There is a registration fee of 40 INR per team.",
     },
   ]
 
