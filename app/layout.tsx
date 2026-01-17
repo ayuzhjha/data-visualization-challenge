@@ -6,6 +6,7 @@ import SiteHeader from "@/components/SiteHeader"
 import HyperspeedBackground from "@/components/HyperspeedBackground"
 import "./globals.css"
 
+
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
